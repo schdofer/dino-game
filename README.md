@@ -19,3 +19,8 @@ Hospedado no Github Pages.
 [Game Demo](https://schdofer.github.io/dino-game/)
 
 <br />
+
+### **Recursos Externos utilizados**
+----
+- [https://www.toptal.com/developers/keycode](https://www.toptal.com/developers/keycode)
+    - Usado para identificar o ***key code*** das teclas usadas no Game.

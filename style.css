@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@import url("_variables.css");
+
+/* Workaround Github Pages */
+:root {
+    --background-body: #fafafa;
+    --background-game-over: brown;
+    --color-game-over: white;
+    --font-default: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: var(--background-body);
+}
+
+.background {
+    background-image: url(assets/images/background.png);
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    bottom: 0;
+    background-repeat: repeat-x;
+    /* invocando animation */
+    animation: sliderRight 5000s infinite linear;
+}
+
+.dino {    
+    width: 60px;
+    height: 60px;
+    background-image: url(assets/images/dino.png);
+    position: absolute;
+    bottom: 0;
+}
+
+.cactus {
+    width: 60px;
+    height: 60px;
+    background-image: url(assets/images/cactus.png);
+    position: absolute;
+    bottom: 0;
+}
+
+.gameOver {
+    background-color: var(--background-game-over);
+    color: var(--color-game-over);
+    font-family: var(--font-default);    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    border-radius: 10%;
+    margin: 25vh auto;
+}
+
+.gameOver > h1 {
+    text-transform: uppercase;
+}
+
+/* Animation background */
+@keyframes sliderRight {
+    from {
+        background-position: 70000%;
+    }
+    to {
+        background-position: 0;
+    }
+}
+

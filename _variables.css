@@ -1,0 +1,6 @@
+:root {
+    --background-body: #fafafa;
+    --background-game-over: brown;
+    --color-game-over: white;
+    --font-default: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -16,5 +16,6 @@ Hospedado no Github Pages.
 
 ### **Link demo do projeto**
 ----
+[Game Demo](https://schdofer.github.io/dino-game/)
 
 <br />
